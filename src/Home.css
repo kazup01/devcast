@@ -1,0 +1,30 @@
+.submit-form {
+  margin: 40px auto;
+}
+
+.top-wrap {
+  display: flex;
+}
+
+.top-category {
+  height: 100vh;
+  width: 30%;
+}
+
+.top-list {
+  height: 100vh;
+  width: 70%;
+}
+
+.top-list ul li {
+  padding: 20px 0;
+}
+
+img{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
