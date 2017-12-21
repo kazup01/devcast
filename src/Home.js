@@ -134,7 +134,7 @@ class Home extends Component {
                       <li key={item.id}>
                         <h3><Link to={`${item.user}/${item.title}`}>{item.title}</Link></h3>
                         <p>Category: {item.category}</p>
-                        <p>brought by: {item.user}</p>
+                        <p>Write by: <Link to={`/u/${item.user}`}>{item.user}</Link></p>
                       </li>
                     )
                   })}
