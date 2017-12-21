@@ -118,11 +118,7 @@ class Content extends Component {
                 <li key={item.id}>
                   <h3>{item.title}</h3>
                   <p>Content: {item.content}</p>
-                  {item.user_id === this.state.user.uid ?
-                    <p>User ID: {item.user_id}</p>
-                  :
-                    ''
-                  }
+                  <p>User ID: {item.user_id}</p>
                   <p>Category: {item.category}</p>
                   <p>User: {item.user}</p>
                   <div>

@@ -4,6 +4,7 @@ import Post from './Post'
 import Dashboard from './Dashboard'
 import Category from './Category'
 import Content from './Content'
+import Users from './Users'
 import { Route, Switch } from 'react-router-dom'
 
 export default function Routes () {
@@ -13,6 +14,7 @@ export default function Routes () {
           <Route exact path="/" component={Home} />
           <Route path="/post" component={Post} />
           <Route path="/d/:name" component={Dashboard} />
+          <Route path="/u/:name" component={Users} />
           <Route path="/c/:category" component={Category} />
           <Route path="/:name/:title" component={Content} />
         </Switch>
