@@ -7,7 +7,7 @@
   },
   "author": "Kazz Yokomizo <kazup.inc@gmail.com> (https://github.com/kazup01)",
   "dependencies": {
-    "firebase": "^4.7.0",
+    "firebase": "^10.9.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2"
